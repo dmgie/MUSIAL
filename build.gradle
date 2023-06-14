@@ -41,7 +41,7 @@ tasks.whenTaskAdded { task ->
 This task unzips SnpEff.
 */
 task unpackSnpEff( type: Copy ) {
-    from zipTree( 'src/main/resources/SnpEff.zip' )
+    from zipTree( 'src/main/resources/snpEff.zip' )
     into 'src/main/resources/'
 }
 
